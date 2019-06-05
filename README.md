@@ -13,10 +13,12 @@ Version 2.0 of the quick and simple algorithm to search in big files faster than
  ```
 ## What's new in this version?
 · The main important feature: It's available for or operating systems.
+
 · All operation are excecuted parallely in order to speed up the search.
+
 · Search in more than 25 GB requires about 260 seconds while with a normal scan with grep about 660.
+
 · Interactive Menu available by just lauching the program or excecute it via arg commands.
-·
 
 ## For what os is developed?
 It is developed for Unix Based systems so Linux and Mac and for Windows.
@@ -37,7 +39,7 @@ No dependecies
 The algorithm of this software is very simple. It is coded to search strings in big files. It's very useful to search in leaks that are some Gbs or more or to search strings in other big files...
 It allows you to choose the best way to search in file/s with an interactive menu or via commands.
  
-![img](https://imgur.com/mRgf2P0)
+![img](https://i.imgur.com/mRgf2P0.png)
 
 ### How many Extensions can I scan?
 Whatever extension you want, only one constraint is present: characters of files should be at least ISO_8859_1 encoded.
