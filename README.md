@@ -14,7 +14,7 @@ Version 2.0 of the quick and simple algorithm to search in big files faster than
 ## What's new in this version?
 · The main important feature: It's available for all operating systems.
 
-· All operation are excecuted parallely in order to speed up the search.
+· All tasks are excecuted parallely in order to speed up the search.
 
 · Search in more than 25 GB requires about 260 seconds while with a normal scan with grep about 660.
 
@@ -91,7 +91,7 @@ Whatever extension you want, only one constraint is present: characters of files
  ```
  java -jar LeakerSearcher.jar
  ```
- #### Hey! JAR file is also excecutable as shown above also on OSx and Linux if you don't want to install it.
+ #### Hey! JAR file is also executable as shown above also on OSx and Linux if you don't want to install it.
  
  ## Screen
  
