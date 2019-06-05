@@ -22,7 +22,7 @@ public class ProcessSingleFile {
     public static final String ANSI_CYAN = "\u001B[36m";
     public static final String ANSI_WHITE = "\u001B[37m";
 
-    private static List<String> colors = new ArrayList<>(Arrays.asList(ANSI_BLACK, ANSI_RED, ANSI_GREEN, ANSI_YELLOW, ANSI_BLUE, ANSI_PURPLE, ANSI_CYAN, ANSI_WHITE));
+    private static List<String> colors = new ArrayList<>(Arrays.asList(ANSI_RED, ANSI_GREEN, ANSI_YELLOW, ANSI_BLUE, ANSI_PURPLE, ANSI_CYAN, ANSI_WHITE));
     private static Random rand = new Random();
 
     private String File_Path;
