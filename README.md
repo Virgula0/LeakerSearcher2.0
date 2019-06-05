@@ -107,5 +107,5 @@ Whatever extension you want, only one constraint is present: characters of files
  
  ## Author
  
- Coded by Virgula December 2017 updated on June 2019.
+ Coded by Virgula December 2017 updated in June 2019.
  https://github.com/Virgula0/LeakerSearcher2.0
