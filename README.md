@@ -12,7 +12,7 @@ Version 2.0 of the quick and simple algorithm to search in big files faster than
                    |____\___\__,_|_\_\\___||_|   |___/\___\__,_|_| \__||_||_\___||_|   
  ```
 ## What's new in this version?
-· The main important feature: It's available for or operating systems.
+· The main important feature: It's available for all operating systems.
 
 · All operation are excecuted parallely in order to speed up the search.
 
