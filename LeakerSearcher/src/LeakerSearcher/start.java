@@ -58,11 +58,11 @@ public class start {
                 "\t\t| | |     ___  ____| | _____ ____  | (___   ___  __ _ _ __ ___| |__   ___ ____  |\n" +
                 "\t\t| | |    / _  / _  | |/ / _    __|  |___ | / _  / __ | ___/ __|  _   / _ |  __| |\n" +
                 "\t\t| | |___|  __/ (_| | <  | __/ |     ____) |  __/ (_| | | | (__| | | |  __/ |    |\n" +
-                "\t\t| |______ ___|_____|_|__/___|_|    |_____/ \\___| ____|_|  \\___|_| |_| ___|_|    |\n" +
+                "\t\t| |______ ___|_____|_|__/___|_|    |_____/ \\___| ____|_|  \\___|_| |_| ___|_|2.0 |\n" +
                 "\t\t|                                                                               |\n" +
                 "\t\t| Quick and simple algorithm to search in big files very fast mode              |\n" +
                 "\t\t| Coded By Virgula @2017 updated in June 2019                                   |\n" +
-                "\t\t| Git: https://github.com/Virgula0/LeakerSearcher                               |\n" +
+                "\t\t| Git: https://github.com/Virgula0/LeakerSearcher2.0                            |\n" +
                 "\t\t| Version: {2.0#Stable}                                                         |\n" +
                 "\t\t| Note: Close your other opened programs before to launch this.                 |\n" +
                 "\t\t+-------------------------------------------------------------------------------+\n";
