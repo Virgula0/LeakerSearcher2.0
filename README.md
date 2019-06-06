@@ -87,7 +87,7 @@ Whatever extension you want, only one constraint is present: characters of files
  ./OSX_Installer.sh
  ```
  Windows:
- Still not supported the installation but you can find the JAR file here and excecute it with:
+ Still not supported the installation but you can find the JAR file here and execute it with:
  ```
  java -jar LeakerSearcher.jar
  ```
