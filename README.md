@@ -16,7 +16,7 @@ Version 2.0 of the quick and simple algorithm to search in big files faster than
 
 · All tasks are excecuted parallely in order to speed up the search.
 
-· Search in more than 25 GB requires about 260 seconds while with a normal scan with grep about 660.
+· Search in more than 25 GB requires about 260 seconds while with a normal scan with grep about 600.
 
 · Interactive Menu available by just lauching the program or excecute it via arg commands.
 
@@ -93,16 +93,17 @@ Whatever extension you want, only one constraint is present: characters of files
  ```
  #### Hey! JAR file is also executable as shown above also on OSx and Linux if you don't want to install it.
  
- ## Screen
+ ## LeakerSearcher vs Grep (Exploit.in leak search attempt)
  
- 
- 
+ ![img](https://i.imgur.com/Gp3AiXG.png)
+ Time could change, it depends where the source is located and what machine are you currently using.
+ In my case the leak is placed on an external hard disk so the scan will be slower than normal. It's raccomended to have the   source on a memory phisically connected to your pc. Test pc was a MacBook Pro 2,4 GHz Intel Core i7 8 GB of Ram DDR3.
+  
  ## Versions (Current: 2.0#Stable)
  Added in this version :
  Version 2.0
  
  ## Video
- [![IMAGE ALT TEXT HERE](https://i.imgur.com/ZF6qEy1.jpg)](https://www.youtube.com/watch?v=OXG3YNKDXKE)
  Coming soon a new demonstration video.
  
  ## Author
