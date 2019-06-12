@@ -16,7 +16,7 @@ Version 2.0 of the quick and simple algorithm to search in big files faster than
 
 · All tasks are excecuted parallely in order to speed up the search.
 
-· Search in more than 25 GB requires about 260 seconds while with a normal scan with grep about 600.
+· Search in more than 25 GB requires about 220 seconds while with a normal scan with grep about 600.
 
 · Interactive Menu available by just lauching the program or excecute it via arg commands.
 
