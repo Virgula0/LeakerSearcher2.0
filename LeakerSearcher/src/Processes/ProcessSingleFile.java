@@ -22,6 +22,7 @@ public class ProcessSingleFile {
     public static final String ANSI_CYAN = "\u001B[36m";
     public static final String ANSI_WHITE = "\u001B[37m";
 
+
     private static List<String> colors = new ArrayList<>(Arrays.asList(ANSI_RED, ANSI_GREEN, ANSI_YELLOW, ANSI_BLUE, ANSI_PURPLE, ANSI_CYAN, ANSI_WHITE));
     private static Random rand = new Random();
 
@@ -44,7 +45,7 @@ public class ProcessSingleFile {
                         .map(Paths::get)
                         .flatMap(ThrowingFunction.wrap(x -> Files.lines(x, StandardCharsets.ISO_8859_1)))
                         .filter(x -> x.contains(toMatch))
-                        .collect(Collectors.toSet())
+                        .collect(Collectors.toCollection(HashSet::new))
                 :
                 IntStream.range(lowbound, upbound)
                         .parallel()
@@ -54,7 +55,7 @@ public class ProcessSingleFile {
                         .flatMap(ThrowingFunction.wrap(x -> Files.lines(x, StandardCharsets.ISO_8859_1)))
                         .filter(x -> x.contains(toMatch))
                         .peek(x -> System.out.println(colors.get(rand.nextInt(colors.size()-1)) + "Found something till now! _> " + x))
-                        .collect(Collectors.toSet());
+                        .collect(Collectors.toCollection(HashSet::new));
 
         return check;
     }
@@ -66,7 +67,7 @@ public class ProcessSingleFile {
                         .parallel()
                         .unordered()
                         .filter(x -> x.contains(toMatch))
-                        .collect(Collectors.toSet())
+                        .collect(Collectors.toCollection(HashSet::new))
                 :
                 Files.lines(Paths.get(this.File_Path), StandardCharsets.ISO_8859_1)
                         .parallel()
@@ -75,7 +76,7 @@ public class ProcessSingleFile {
                         .peek(x -> System.out.println(colors.get(rand.nextInt(colors.size()-1)) + "Found something till now! _> " + x))
                         //.distinct() // Distinct is redundant, a Set cannot contain duplicates
                         //.flatMap(s-> Arrays.stream(s.split("\\PL+"))) //Useless operation
-                        .collect(Collectors.toSet());
+                        .collect(Collectors.toCollection(HashSet::new));
         return check;
     }
 
@@ -89,7 +90,7 @@ public class ProcessSingleFile {
                         .map(Paths::get)
                         .flatMap(ThrowingFunction.wrap(x -> Files.lines(x, StandardCharsets.ISO_8859_1)))
                         .filter(x -> x.contains(toMatch))
-                        .collect(Collectors.toSet())
+                        .collect(Collectors.toCollection(HashSet::new))
                 :
                 Files.list(Paths.get(this.File_Path))
                         .parallel()
@@ -100,7 +101,7 @@ public class ProcessSingleFile {
                         .flatMap(ThrowingFunction.wrap(x -> Files.lines(x, StandardCharsets.ISO_8859_1)))
                         .filter(x -> x.contains(toMatch))
                         .peek(x -> System.out.println(colors.get(rand.nextInt(colors.size()-1)) + "Found something till now! _> " + x))
-                        .collect(Collectors.toSet());
+                        .collect(Collectors.toCollection(HashSet::new));
         return check;
     }
 
@@ -114,7 +115,7 @@ public class ProcessSingleFile {
                         .map(Paths::get)
                         .flatMap(ThrowingFunction.wrap(x -> Files.lines(x, StandardCharsets.ISO_8859_1)))
                         .filter(x -> x.contains(toMatch))
-                        .collect(Collectors.toSet())
+                        .collect(Collectors.toCollection(HashSet::new))
                 :
                 Files.walk(Paths.get(this.File_Path))
                         .parallel()
@@ -125,7 +126,7 @@ public class ProcessSingleFile {
                         .flatMap(ThrowingFunction.wrap(x -> Files.lines(x, StandardCharsets.ISO_8859_1)))
                         .filter(x -> x.contains(toMatch))
                         .peek(x -> System.out.println(colors.get(rand.nextInt(colors.size()-1)) + "Found something till now! _> " + x))
-                        .collect(Collectors.toSet());
+                        .collect(Collectors.toCollection(HashSet::new));
         return check;
     }
 
