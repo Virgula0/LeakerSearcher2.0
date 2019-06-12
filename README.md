@@ -96,6 +96,7 @@ Whatever extension you want, only one constraint is present: characters of files
  ## LeakerSearcher vs Grep (Exploit.in leak search attempt)
  
  ![img](https://i.imgur.com/8B3c2aN.png)
+ Updates: decresed the time of 30 seconds with the latest update.
  Time could change, it depends where the source is located and what machine are you currently using.
  In my case the leak is placed on an external hard disk so the scan will be slower than normal. It's raccomended to have the   source on a memory phisically connected to your pc. Test pc was a MacBook Pro 2,4 GHz Intel Core i7 8 GB of Ram DDR3.
   
