@@ -14,11 +14,11 @@ Version 2.0 of the quick and simple algorithm to search in big files faster than
 ## What's new in this version?
 · The main important feature: It's available for all operating systems.
 
-· All tasks are excecuted parallely in order to speed up the search.
+· All tasks are executed parallelly to speed up the search.
 
 · Search in more than 25 GB requires about 220 seconds while with a normal scan with grep about 600.
 
-· Interactive Menu available by just lauching the program or excecute it via arg commands.
+· Interactive Menu is available by just launching the program or execute it via arg commands.
 
 ## For what os is developed?
 It is developed for Unix Based systems so Linux and Mac and for Windows.
@@ -27,13 +27,13 @@ It is developed for Unix Based systems so Linux and Mac and for Windows.
 JRE at least 1.8 version (Java 8).
 
 ### Dependencies?
-No dependecies
+No dependencies
 
 ### How it works?
   ```
   ·Verify if your email is in a leak: https://haveibeenpwned.com 
   ·Now download your leak where is your target 
-  ·You can use LeakerSearcher to search string in file/s leak/s faster then a manual string recovery. 
+  ·You can use LeakerSearcher to search string in file/s leak/s faster than a manual string recovery. 
   ·Done! 
   ```
 The algorithm of this software is very simple. It is coded to search strings in big files. It's very useful to search in leaks that are some Gbs or more or to search strings in other big files...
@@ -46,21 +46,21 @@ Whatever extension you want, only one constraint is present: characters of files
 
     * Option 1 -> (1) Search in a single file. 
 
-     Search for a string in a single file that is very big: 10 gb or more
+     Search for a string in a single file that is very big: 10 GB or more
 
     * Option 2 -> (2) Search in enumerated files.
 
-    Search for a string in enumerated files from 1.ext to your own n.ext 
+    Search for a string in enumerated files from 1.ext to your n.ext 
 
     * Option 3 -> (3) Search in all .ext files in a single path.
 
-    Insert you path directory, next the program will scan all files in directory with extension specified by you.
-    For example scan all .txt in C:\Users\Desktop\dir to search your own string
+    Insert your path directory, next to the program, will scan all files in a directory with extension specified by you.
+    For example, scan all .txt in C:\Users\Desktop\dir to search your string
 
     * Option 4 -> (4) Search in all .ext files in a path and its subdirectories.
 
-    Insert you path directory, next the program will scan all files in directory and subdirectory of your path with extension    specified by you.
-    For example scan all .txt in C:\Users\Desktop\dir to search your own string
+    Insert your path directory, next to the program, will scan all files in directory and subdirectory of your path with extension specified by you.
+    For example, scan all .txt in C:\Users\Desktop\dir to search your string
     In the directory there are
      
      --------dir
@@ -98,7 +98,7 @@ Whatever extension you want, only one constraint is present: characters of files
  ![img](https://i.imgur.com/8B3c2aN.png)
  Updates: decresed the time of 30 seconds with the latest update.
  Time could change, it depends where the source is located and what machine are you currently using.
- In my case the leak is placed on an external hard disk so the scan will be slower than normal. It's raccomended to have the   source on a memory phisically connected to your pc. Test pc was a MacBook Pro 2,4 GHz Intel Core i7 8 GB of Ram DDR3.
+ In my case, the leak is placed on an external hard disk so the scan will be slower than normal. It's recommended to have the source on a memory physically connected to your pc. Tests were run on a MacBook Pro 2,4 GHz Intel Core i7 8 GB of Ram DDR3.
   
  ## Versions (Current: 2.0#Stable)
  Added in this version :
