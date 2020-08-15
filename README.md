@@ -1,5 +1,5 @@
 # LeakerSearcher2.0
-Version 2.0 of the quick and simple algorithm to search in big files faster than other rivals (Grep-Egrep etc)
+Version 2.0 of the LeakerSearcher. Search in big files faster than other tools (Grep-Egrep etc)
 
 ```
                     (                             (                                    
@@ -20,8 +20,10 @@ Version 2.0 of the quick and simple algorithm to search in big files faster than
 
 · Interactive Menu is available by just launching the program or execute it via arg commands.
 
+· Clean code: entirely developed with Java Stream API.
+
 ## For what os is developed?
-It is developed for Unix Based systems so Linux and Mac and for Windows.
+It is developed for Unix Based systems so Linux and Mac. Compatible with Windows too.
 
 ### Prerequisites
 JRE at least 1.8 version (Java 8).
@@ -36,7 +38,7 @@ No dependencies
   ·You can use LeakerSearcher to search string in file/s leak/s faster than a manual string recovery. 
   ·Done! 
   ```
-The algorithm of this software is very simple. It is coded to search strings in big files. It's very useful to search in leaks that are some Gbs or more or to search strings in other big files...
+This software is coded to search strings in big files. It's very useful to search in leaks that are some Gbs or more or to search strings in other big files...
 It allows you to choose the best way to search in file/s with an interactive menu or via commands.
  
 ![img](https://i.imgur.com/mRgf2P0.png)
@@ -69,9 +71,9 @@ Whatever extension you want, only one constraint is present: characters of files
     |               \
      ----------------subdirectory_2 -> search all txt
 
- #### Warning!
+ #### Tip
  
- Close all other opened application while using this program.
+ Close all other opened application while you're using this program.
  
  ### Installation
  ```
